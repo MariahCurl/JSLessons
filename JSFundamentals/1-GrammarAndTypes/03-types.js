@@ -54,6 +54,8 @@ let zipcode = 46151;
 console.log(firstName,lastName);
 console.log(houseNumber, street, city, state, zipcode);
 
+// do console.log(`${fistName,} ${lastName}); ect for one string.
+
 //objects = container that can hold multiple data types
 let firstObject = {
     integer: 50,
