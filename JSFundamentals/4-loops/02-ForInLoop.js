@@ -1,5 +1,5 @@
 //forInLoop
-let student = { 
+/*let student = { 
     name : 'Mariah',
     awesome : true,
     degree : 'JavaScript',
@@ -9,16 +9,17 @@ let student = {
 for ( item in student ) { //item is just a temporary place holder for the key. It can be named anything.
     console.log('key =>', item)
     console.log('value =>', student[item]);
-}
+}*/
 
 let catArray = [ 'saimese', 'tabby', 'farel', 'sphynx', 'lazy']
 
-/*for ( cat in catArray ) {
+
+for ( cat in catArray ) {
     console.log(catArray[cat]);
 }
-
-let aCat = catArray[] // lets you grab a specific key
-// a for-In loop allows you to grab the keys in an object, or the index in an array.
+let aCat = catArray[0];
+ // lets you grab a specific key
+//a for-In loop allows you to grab the keys in an object, or the index in an array.
 
 //challenge 
 
